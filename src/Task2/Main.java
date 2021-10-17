@@ -24,9 +24,7 @@ public class Main {
         listAll.add(new User(coffeeMachine, 2, "Ktoś"));
 
 
-        for (int i = 0; i < listAll.size(); i++) {
-//            listAll.get(i).join();
-        }
+    
 
 
         System.out.println("User who take a coffee : ");
