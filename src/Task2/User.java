@@ -15,7 +15,7 @@ public class User extends Thread {
     }
 // choise 1 its amerricano 2 =cappucino 3= ecspresso
     @Override
-    public void run() {
+    public synchronized void run() {
 
         if (choise == 1 &&
                 machine.getCurrentCoffeLevel() - 20 >= 0 && machine.getCurrentMilkLevel() - 40 >= 0 && machine.getCurrentWaterLevel() - 100 >= 0) {
