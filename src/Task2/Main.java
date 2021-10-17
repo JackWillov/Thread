@@ -25,7 +25,7 @@ public class Main {
 
 
         for (int i = 0; i < listAll.size(); i++) {
-            listAll.get(i).join();
+//            listAll.get(i).join();
         }
 
 
